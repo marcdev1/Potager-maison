@@ -45,10 +45,7 @@ img, #serre1{
     height: 450px;
     width: 700px;
 }
-p:first-child
-{
-    color: yellow;
-}
+
 
 /* Revoir le code css pour disposer les photos en flex wrap: wrap/*
 /*
