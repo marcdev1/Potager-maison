@@ -1,0 +1,58 @@
+body{
+    background: black;
+    border: white solid 1px;
+    color: tomato;
+}
+
+p{
+    font-size: 200%;
+    border: tomato solid 1px;
+    text-align: center;
+}
+
+a{
+    border: yellow dashed 1px;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    background: rgb(0, 0, 161);
+    color: chartreuse;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+nav{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+img, #serre1{
+    border: rgb(17, 66, 58) solid 10px;
+    padding: 25px;
+    background: rgba(127, 255, 212, 0.616);
+    height: 450px;
+    width: 700px;
+}
+
+/* Revoir le code css pour disposer les photos en flex wrap: wrap/*
+/*
+section > #butte{
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
+div{
+    text-align: center;
+}
